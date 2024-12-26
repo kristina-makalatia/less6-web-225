@@ -1,0 +1,114 @@
+/* header styles */
+.container-header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.header-element {
+    /* height: 46px; */
+    background-color: lightgreen;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+}
+.ul-navigation {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+/*  */
+.image-box {
+    width: 511px;
+    height: 270.5px;
+    border: 2px solid #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.image-el-homework {
+    position: relative;
+}
+.image-el {
+    width: 100%;
+}
+/* position styles */
+.wraper {
+    width: 450px;
+    height: 450px;
+    position: relative;
+    background-color: lightblue;
+}
+.block {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    z-index: 2;
+}
+.block2 {
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+    z-index: 3;
+}
+
+/* image example */
+.image-title {
+    position: absolute;
+    top: 150px;
+    right: 200px;
+    font-size: 30px;
+    color: red;
+}
+.image-relative {
+    position: relative;
+    display: inline-block;
+}
+
+/* chat icon example */
+.chat-icon-image {
+    height: 100px;
+}
+.chat-icon {
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+/* h.w */
+.box {
+    width: 310px;
+    height: 430px;
+    border: 2px solid #000;
+}
+.social-icon-box {
+    background-color: #F2F4F7;
+    width: 36px;
+    height: 36px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-box {
+    display: flex;
+    width: 140px;
+    justify-content: space-between;
+    border: 1px solid red;
+}
+.fa-instagram {
+    color: red;
+}
+.twitter {
+    color: blue;
+}
